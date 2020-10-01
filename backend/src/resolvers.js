@@ -5,12 +5,8 @@ const users = [
 
 module.exports = {
     Query: {
-        users: () => {
-
-        },
-        user: () => {
-
-        }
+        users: () => users,
+        user: () => users[0]
     },
 
     Mutation: {
